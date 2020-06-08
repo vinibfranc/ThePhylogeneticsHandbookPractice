@@ -20,7 +20,7 @@ mv outfile outfile_primates
 mv outtree outtree_primates
 mv infile_primates outfile_primates outtree_primates ../results/distance
 
-# Open Figtree by typing figtree on terminal and generate and customize trees
+### Open Figtree by typing figtree on terminal and generate and customize trees ###
 
 mv infile_dnadist infile
 dnadist infile # Press Y
@@ -33,7 +33,7 @@ mv outfile outfile_mtdna
 mv outtree outtree_mtdna
 mv infile_mtdna outfile_mtdna outtree_mtdna ../results/distance
 
-# Open Figtree by typing figtree on terminal and generate and customize trees
+### Open Figtree by typing figtree on terminal and generate and customize trees ###
 
 # GETTING ERROR MESSAGE!
 # megacc -a primates_config_mega.mao -d primates_2.meg -o ../results/distance/primates_mega.meg

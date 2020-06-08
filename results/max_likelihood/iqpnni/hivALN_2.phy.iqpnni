@@ -1,0 +1,130 @@
+THESE RESULTS ARE FROM IQPNNI 3.3.2 built Aug 20 2010!!!!
+Le Sy Vinh and Arndt von Haeseler, IQPNNI: Moving Fast Through Tree Space
+and Stopping in Time, Mol. Biol. Evol., 21(8):1565-1571. 2004
+
+Bui Quang Minh, Le Sy Vinh, Arndt von Haeseler, and Heiko A. Schmidt, 
+pIQPNNI - parallel reconstruction of large maximum likelihood phylogenies,
+Bioinformatics, 21:3794-3796. 2005
+
+
+Some parts of the code were taken from TREE-PUZZLE package:
+Heiko A. Schmidt, Korbinian Strimmer, Martin Vingron, and Arndt von Haeseler,
+TREE-PUZZLE: Maximum likelihood phylogenetic analysis
+using quartets and parallel computing, Bioinformatics, 18:502-504, 2002
+
+The source codes to construct the BIONJ tree were taken from BIONJ software:
+Oliver Gascuel, BIONJ: An Improved Version of the NJ Algorithm
+Based on a Simple Model of Sequence Data, Mol. Bio. Evol., 14:685-695, 1997
+
+=================================================================================
+                              INPUT DATA INFORMATION                                                                         
+=================================================================================
+
+General information:
+Random number generator seed: 1270399053
+Alignment file name: hivALN_2.phy
+Bootstrap analysis: No
+Number of sequences: 14
+Number of sites: 2352
+Number of patterns: 1013
+Display as outgroup: L20571
+Number of iterations: 200
+Stopping rule: No
+
+IQP information:
+Probability of deleting one sequence: 0.3
+Number of representatives: 5
+
+Substitution process: 
+Type of sequence input data: Nucleotides
+Model of substitution: HKY85 (Hasegawa et al. 1985)
+Transition/transversion ratio (0.5 for JC69): 1.8213
+Nucleotide Frequencies (estimate from the data set):
+    1. Base A: 0.3452
+    2. Base C: 0.1742
+    3. Base G: 0.2341
+    4. Base T: 0.2465
+
+Rate Heterogeneity: Gamma distributed rates
+   (see hivALN_2.phy.iqpnni.rate for empirical Bayesian estimates)
+Gamma distribution parameter alpha: 0.52708
+Number of Gamma rate categories:  4
+Proportion of invariable sites: 0
+
+Rates and their respective probabilities: 
+Category   Rate   Probability
+  1      0.03438   0.25
+  2        0.299   0.25
+  3       0.9412   0.25
+  4        2.725   0.25
+=================================================================================
+                              RESULTS INFORMATION                                                                         
+=================================================================================
+
+Unconstrained Log-likelihood: -12463.69362
+
+Log likelihood: -17392.72384
+The tree with highest likelihood: 
+(L20571:0.917806,(X52154:0.329365,AF103818:0.333454):0.104460,((((U09126:0.040809,AF067158:0.054530):0.069991,((U27399:0.045651,U43386:0.054259):0.048753,(U08443:0.044659,((AF042106:0.048798,L02317:0.036340):0.006267,AF025763:0.044954):0.010425):0.037256):0.035019):0.016275,(U27445:0.046783,U27426:0.064636):0.061085):0.018881,U09127:0.078048):0.209513);
+
+The illustrated picture from the reconstructed tree with highest likelihood:
+Note: it is an unrooted tree!!!
+                                                     
+    :------  X52154                                  
+:---25                                               
+:   :------  AF103818                                
+24--------- L20571                                   
+:               :---  U09126                         
+:           :---22                                   
+:           :   :---  AF067158                       
+:       :---14                                       
+:       :   :       :---  U27399                     
+:       :   :   :---15                               
+:       :   :   :   :---  U43386                     
+:       :   :---17                                   
+:       :       :   :---  U08443                     
+:       :       :---18                               
+:       :           :       :---  AF042106           
+:       :           :   :---20                       
+:       :           :   :   :---  L02317             
+:       :           :---23                           
+:       :               :---  AF025763               
+:   :---19                                           
+:   :   :   :---  U27445                             
+:   :   :---16                                       
+:   :       :---  U27426                             
+:---21                                               
+    :---  U09127                                     
+                                                     
+
+Number of branches: 25
+(15,      U27399):      0.04565196
+(19,      14):          0.0162756
+(16,      U27445):      0.04678335
+(17,      15):          0.04875348
+(15,      U43386):      0.05425963
+(14,      17):          0.03501996
+(16,      U27426):      0.06463669
+(19,      16):          0.06108527
+(18,      U08443):      0.04465962
+(22,      U09126):      0.04080995
+(17,      18):          0.03725644
+(20,      AF042106):     0.04879838
+(18,      23):          0.01042587
+(20,      L02317):      0.03634018
+(24,      21):          0.2095138
+(21,      U09127):      0.07804865
+(14,      22):          0.06999141
+(22,      AF067158):     0.05453026
+(21,      19):          0.01888147
+(23,      20):          0.006267189
+(25,      X52154):      0.3293651
+(25,      AF103818):     0.333455
+(23,      AF025763):     0.04495485
+(24,      25):          0.1044603
+(L20571,  24):          0.9178064
+
+
+Time information:
+Date and time: Mon Jun  8 18:33:47 2020
+Runtime: 0h:0m:23s

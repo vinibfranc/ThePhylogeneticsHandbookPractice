@@ -1,0 +1,501 @@
+TREE-PUZZLE 5.3.rc16
+
+Input file name: hivALN_2.phy
+Type of analysis: tree reconstruction
+Parameter estimation: approximate (faster)
+Parameter estimation uses: neighbor-joining tree (for substitution process and rate variation)
+
+Standard errors (S.E.) are obtained by the curvature method.
+The upper and lower bounds of an approximate 95% confidence interval
+for parameter or branch length x are x-1.96*S.E. and x+1.96*S.E.
+
+
+SEQUENCE ALIGNMENT
+
+Input data: 14 sequences with 2352 nucleotide sites
+Number of constant sites: 868 (= 36.9% of all sites)
+
+Number of site patterns: 1013
+Number of constant site patterns: 4 (= 0.4% of all site patterns)
+
+
+Concering parsimony informative sites there are:
+
+Number of parsimony informative sites: 955 (= 40.6% of all sites)
+  - fully informative sites:  586 (= 24.9% of all sites)
+  - partly informative sites: 369 (= 15.7% of all sites)
+Number of parsimony uninformative sites: 1397 (= 59.4% of all sites)
+  - variable, but uninformative sites: 529 (= 22.5% of all sites)
+  - completely constant sites: 868 (= 36.9% of all sites)
+  - constant sites (but with gaps/wildcards): 0 (= 0.0% of all sites)
+
+
+For each sequence there are following numbers of parsimony (non-)informative site:
+
+                    informative sites   non-informative sites
+ 1   L20571             830 ( 35.29%)          1522 ( 64.71%)
+ 2   AF103818           881 ( 37.46%)          1471 ( 62.54%)
+ 3   X52154             874 ( 37.16%)          1478 ( 62.84%)
+ 4   U09127             935 ( 39.75%)          1417 ( 60.25%)
+ 5   U27426             934 ( 39.71%)          1418 ( 60.29%)
+ 6   U27445             945 ( 40.18%)          1407 ( 59.82%)
+ 7   AF067158           939 ( 39.92%)          1413 ( 60.08%)
+ 8   U09126             939 ( 39.92%)          1413 ( 60.08%)
+ 9   U27399             943 ( 40.09%)          1409 ( 59.91%)
+ 10  U43386             946 ( 40.22%)          1406 ( 59.78%)
+ 11  L02317             949 ( 40.35%)          1403 ( 59.65%)
+ 12  AF025763           948 ( 40.31%)          1404 ( 59.69%)
+ 13  U08443             944 ( 40.14%)          1408 ( 59.86%)
+ 14  AF042106           949 ( 40.35%)          1403 ( 59.65%)
+
+Note: partially informative sites are informative only for some sequences. Hence, the number of informative sites for each sequence can differ.
+
+
+SUBSTITUTION PROCESS
+
+Model of substitution: HKY (Hasegawa et al. 1985)
+Transition/transversion parameter (estimated from data set): 1.82 (S.E. 0.09)
+
+Rate matrix R (parameters restricted to selected model):
+
+ A-C rate: 1.00000
+ A-G rate: 3.61049
+ A-T rate: 1.00000
+ C-G rate: 1.00000
+ C-T rate: 3.61049
+ G-T rate: 1.00000
+
+Nucleotide frequencies (estimated from data set):
+
+ pi(A) =  34.5%
+ pi(C) =  17.4%
+ pi(G) =  23.4%
+ pi(T) =  24.7%
+
+Expected transition/transversion ratio: 1.85
+Expected pyrimidine transition/purine transition ratio: 0.53
+
+
+AMBIGUOUS CHARACTERS IN THE SEQUENCE (SEQUENCES IN INPUT ORDER)
+
+                   gaps  wildcards        sum   % sequence
+ 1   L20571           0          0          0        0.00%   
+ 2   AF103818         0          0          0        0.00%   
+ 3   X52154           0          0          0        0.00%   
+ 4   U09127           0          0          0        0.00%   
+ 5   U27426           0          0          0        0.00%   
+ 6   U27445           0          0          0        0.00%   
+ 7   AF067158         0          0          0        0.00%   
+ 8   U09126           0          0          0        0.00%   
+ 9   U27399           0          0          0        0.00%   
+ 10  U43386           0          0          0        0.00%   
+ 11  L02317           0          0          0        0.00%   
+ 12  AF025763         0          0          0        0.00%   
+ 13  U08443           0          0          0        0.00%   
+ 14  AF042106         0          0          0        0.00%   
+ -----------------------------------------------------------
+ Sum                  0          0          0        0.00%   
+
+
+The table above shows the amount of gaps ('-') and other 'wildcard'
+characters ('X', '?', etc.) and their percentage of the 2352 columns
+in the alignment.
+Sequences with more than 50% ambiguous characters are marked with a '!' and 
+should be checked, whether they have sufficient overlap to other sequences.
+Sequences with 100% ambiguous characters do not hold any phylogenetic
+information and had to be discarded from the analysis.
+
+
+
+SEQUENCE COMPOSITION (SEQUENCES IN INPUT ORDER)
+
+                  5% chi-square test  p-value   chi2-value
+ 1   L20571            passed          14.60%     (5.38)  
+ 2   AF103818          passed          48.09%     (2.47)  
+ 3   X52154            passed          51.77%     (2.27)  
+ 4   U09127            passed          84.58%     (0.82)  
+ 5   U27426            passed          99.73%     (0.05)  
+ 6   U27445            passed          97.45%     (0.22)  
+ 7   AF067158          passed          77.15%     (1.12)  
+ 8   U09126            passed          59.51%     (1.89)  
+ 9   U27399            passed          94.89%     (0.36)  
+ 10  U43386            passed          92.60%     (0.47)  
+ 11  L02317            passed          97.86%     (0.19)  
+ 12  AF025763          passed          92.40%     (0.48)  
+ 13  U08443            passed          92.86%     (0.46)  
+ 14  AF042106          passed          99.59%     (0.06)  
+
+The chi-square tests with 3 degrees of freedom compares the
+nucleotide composition of each sequence to the frequency
+distribution assumed in the maximum likelihood model.
+
+
+IDENTICAL SEQUENCES
+
+The sequences in each of the following groups are all identical. To speed
+up computation please remove all but one of each group from the data set.
+
+ All sequences are unique.
+
+
+MAXIMUM LIKELIHOOD DISTANCES
+
+Maximum likelihood distances are computed using the selected model of
+substitution and rate heterogeneity.
+
+  14
+L20571      0.00000  1.26523  1.21274  1.22304  1.19518  1.15180  1.24250
+            1.23011  1.19072  1.20075  1.19902  1.16499  1.18506  1.20309
+AF103818    1.26523  0.00000  0.66513  0.69922  0.80200  0.77403  0.84417
+            0.76365  0.75812  0.75555  0.72891  0.70903  0.72301  0.73069
+X52154      1.21274  0.66513  0.00000  0.74597  0.76591  0.76794  0.79666
+            0.73966  0.76850  0.76584  0.76484  0.73923  0.78195  0.76368
+U09127      1.22304  0.69922  0.74597  0.00000  0.21402  0.19870  0.21805
+            0.20878  0.22707  0.22285  0.21850  0.21382  0.22086  0.22430
+U27426      1.19518  0.80200  0.76591  0.21402  0.00000  0.10973  0.23868
+            0.23430  0.24686  0.25055  0.23299  0.23660  0.23261  0.24009
+U27445      1.15180  0.77403  0.76794  0.19870  0.10973  0.00000  0.23086
+            0.21428  0.23259  0.23618  0.22196  0.21635  0.21307  0.22759
+AF067158    1.24250  0.84417  0.79666  0.21805  0.23868  0.23086  0.00000
+            0.09405  0.25574  0.24127  0.22287  0.23566  0.23327  0.24555
+U09126      1.23011  0.76365  0.73966  0.20878  0.23430  0.21428  0.09405
+            0.00000  0.23570  0.22357  0.21117  0.21266  0.21524  0.22769
+U27399      1.19072  0.75812  0.76850  0.22707  0.24686  0.23259  0.25574
+            0.23570  0.00000  0.09911  0.16000  0.17002  0.16623  0.17349
+U43386      1.20075  0.75555  0.76584  0.22285  0.25055  0.23618  0.24127
+            0.22357  0.09911  0.00000  0.18040  0.18125  0.17739  0.18495
+L02317      1.19902  0.72891  0.76484  0.21850  0.23299  0.22196  0.22287
+            0.21117  0.16000  0.18040  0.00000  0.08079  0.09363  0.08366
+AF025763    1.16499  0.70903  0.73923  0.21382  0.23660  0.21635  0.23566
+            0.21266  0.17002  0.18125  0.08079  0.00000  0.09660  0.09641
+U08443      1.18506  0.72301  0.78195  0.22086  0.23261  0.21307  0.23327
+            0.21524  0.16623  0.17739  0.09363  0.09660  0.00000  0.09803
+AF042106    1.20309  0.73069  0.76368  0.22430  0.24009  0.22759  0.24555
+            0.22769  0.17349  0.18495  0.08366  0.09641  0.09803  0.00000
+
+Average distance (over all possible pairs of sequences):  0.48238
+                  minimum  : 0.08079,  maximum  : 1.26523
+                  variance : 0.14585,  std.dev. : 0.38190
+
+
+RATE HETEROGENEITY
+
+Model of rate heterogeneity: Gamma distributed rates
+Gamma distribution parameter alpha (estimated from data set): 0.56 (S.E. 0.03)
+Number of Gamma rate categories: 8
+
+Rates and their respective probabilities used in the likelihood function:
+
+ Category  Relative rate  Probability
+  1         0.0127         0.1250
+  2         0.0868         0.1250
+  3         0.2193         0.1250
+  4         0.4186         0.1250
+  5         0.7083         0.1250
+  6         1.1415         0.1250
+  7         1.8617         0.1250
+  8         3.5510         0.1250
+
+Categories 1-8 approximate a continous Gamma-distribution with expectation 1
+and variance 1.78.
+
+Combination of categories that contributes the most to the likelihood
+(computation done without clock assumption assuming quartet-puzzling tree):
+
+ 1 1 1 1 7 1 1 4 4 4   8 4 1 8 4 1 7 7 8 8   1 1 8 1 7 6 8 6 8 8
+ 1 1 1 7 8 6 7 4 6 4   6 8 7 8 8 8 4 7 8 4   6 8 4 7 7 4 6 8 1 8
+ 4 1 8 6 8 6 8 8 8 8   8 8 1 4 6 1 4 4 1 5   7 1 1 6 1 1 8 1 1 4
+ 1 4 1 1 1 4 1 1 4 1   1 1 1 4 7 1 1 1 7 6   4 1 1 8 1 4 4 6 6 8
+ 6 1 8 5 6 8 5 1 4 1   1 7 4 1 1 1 1 6 1 1   7 1 1 6 1 1 8 1 1 7
+ 7 4 1 7 4 6 7 7 8 8   5 7 1 1 7 5 8 8 1 1   4 1 1 4 6 1 7 1 1 1
+ 1 1 8 4 1 4 1 1 6 1   1 5 1 1 4 4 1 8 1 1   7 1 1 4 1 1 5 1 1 4
+ 1 4 6 1 1 4 1 4 6 1   1 6 8 1 6 8 8 7 8 1   8 7 7 4 1 1 1 1 1 8
+ 1 4 4 1 1 6 8 4 8 1   1 1 5 1 6 1 1 5 1 1   1 6 1 1 1 1 1 6 1 5
+ 1 1 1 1 4 7 5 1 8 1   1 6 1 1 1 1 1 6 5 4   7 1 1 5 6 1 6 1 1 5
+ 1 1 6 7 1 6 1 1 1 1   1 7 4 1 6 1 1 5 6 1   7 1 1 7 1 1 4 1 1 1
+ 4 4 4 4 1 6 6 1 7 1   1 4 4 4 8 4 1 6 1 1   4 1 4 8 7 4 7 7 1 4
+ 8 4 8 1 1 7 7 8 8 8   1 7 6 8 7 4 4 7 8 8   8 4 5 8 4 7 4 1 1 8
+ 1 5 4 1 1 5 1 1 6 4   4 4 1 1 4 8 1 4 4 4   4 4 1 5 1 4 6 8 8 7
+ 8 4 5 8 6 7 5 8 7 6   1 7 7 1 7 4 1 8 1 1   6 1 1 1 4 8 7 7 7 6
+ 1 1 1 8 1 7 6 6 7 7   8 8 7 1 8 6 6 8 8 1   6 1 8 8 8 8 8 1 1 1
+ 1 4 8 7 1 7 1 4 6 1   4 1 1 1 5 1 1 7 7 4   4 5 1 4 7 5 5 4 4 8
+ 1 6 4 1 1 5 1 4 8 1   1 1 1 1 6 1 1 4 7 5   8 8 6 6 1 1 1 1 1 8
+ 1 1 7 1 1 4 1 1 7 1   1 1 1 4 6 1 1 1 1 1   1 4 1 8 1 1 8 5 1 7
+ 1 1 8 1 7 4 1 1 8 4   1 5 5 1 6 4 1 7 1 1   4 1 4 8 5 1 7 4 4 7
+ 6 8 8 1 1 5 4 7 5 1   1 6 1 7 6 1 1 8 7 7   6 1 1 7 8 7 8 1 4 4
+ 4 1 8 4 4 7 4 4 4 4   1 7 4 4 8 1 1 6 1 1   4 1 1 1 1 1 8 1 1 7
+ 1 8 5 1 1 1 4 4 6 4   1 8 5 4 6 1 1 4 1 1   5 5 1 8 8 1 6 7 1 8
+ 1 1 1 1 1 7 1 4 8 7   1 4 4 1 6 5 6 4 5 7   1 6 1 8 8 1 4 4 6 8
+ 6 1 5 1 4 4 6 7 7 8   4 6 1 1 6 6 6 4 4 5   8 5 1 7 7 8 7 4 4 7
+ 4 1 1 1 1 4 4 4 8 4   1 8 6 7 8 8 4 8 8 4   5 5 1 7 7 8 7 4 1 6
+ 4 8 8 1 1 7 7 8 8 1   1 4 4 4 8 6 4 7 4 4   7 4 4 7 6 6 4 5 6 7
+ 8 5 6 7 4 6 6 4 6 7   8 8 7 6 7 1 4 8 4 4   1 4 4 5 7 8 5 7 6 8
+ 7 7 6 4 4 1 7 6 7 1   5 1 6 6 8 4 6 1 7 6   4 4 5 4 4 4 6 6 5 4
+ 1 1 4 8 7 7 1 1 7 7   1 4 1 1 1 1 4 8 8 4   7 4 6 4 8 8 7 8 8 7
+ 8 8 8 1 1 1 5 8 8 8   7 7 7 6 7 7 4 6 8 4   8 8 8 7 6 5 7 7 8 7
+ 8 8 7 7 7 7 6 4 4 8   8 1 7 6 8 4 7 7 7 7   8 4 1 1 6 8 8 5 6 6
+ 4 6 8 8 4 7 1 1 4 1   1 6 1 1 7 6 6 1 1 1   4 4 1 7 6 7 6 6 8 8
+ 5 6 8 4 6 8 4 1 1 1   1 4 1 1 4 7 4 6 1 1   4 1 1 1 1 1 4 1 1 5
+ 1 1 4 1 1 8 1 1 6 4   1 4 7 6 6 8 8 8 7 1   7 1 1 1 1 4 7 4 4 7
+ 4 5 4 6 1 7 4 4 6 1   1 5 1 6 5 4 1 4 1 4   6 1 1 5 4 1 6 7 1 4
+ 1 7 8 7 6 5 1 1 1 4   4 1 7 6 7 1 4 6 1 4   6 7 7 4 4 4 4 1 1 7
+ 1 4 1 1 1 6 1 1 6 1   1 5 1 4 8 8 8 7 1 1   6 7 8 8 6 1 8 1 8 8
+ 1 1 6 8 8 8 1 1 7 1   4 7 1 1 7 1 1 8 1 1   4 7 1 8 8 1 7 7 1 8
+ 7 7 7 7 6 6 4 4 5 6   6 8 6 6 8 7 5 7 1 6   7 6 1 6 1 4 6 1 1 4
+ 5 7 1 1 1 6 1 1 1 4   1 4 1 1 1 1 7 7 4 4   4 4 4 7 1 1 1 1 4 1
+ 1 7 1 4 1 4 4 1 6 4   1 6 1 6 7 1 1 4 1 1   6 1 1 6 5 1 7 8 8 6
+ 4 1 5 6 1 6 1 1 4 8   1 6 5 4 6 5 1 5 1 4   1 1 1 6 4 4 8 4 8 6
+ 4 4 7 4 8 6 1 1 6 4   6 5 4 5 6 4 1 4 7 8   8 1 1 4 4 1 4 1 1 1
+ 1 1 1 1 1 6 4 6 8 7   1 7 1 1 4 4 4 6 8 1   7 4 1 1 6 1 6 1 1 1
+ 4 1 6 6 1 8 4 1 6 4   1 1 1 1 4 1 1 4 1 1   1 1 1 7 1 1 1 1 1 1
+ 1 1 6 1 1 5 6 1 4 7   4 6 7 4 1 4 1 1 1 1   1 1 4 1 1 4 4 4 5 1
+ 4 4 4 6 6 7 6 1 7 7   1 1 4 4 6 1 1 8 1 1   1 1 1 1 1 1 6 1 1 4
+ 1 1 6 4 6 5 1 1 4 6   1 1 4 1 4 1 4 8 1 1   6 1 1 4 4 1 5 1 1 7
+ 1 1 5 1 1 4 1 1 7 7   1 5 4 1 1 6 4 7 4 1   4 4 1 8 4 1 7 1 1 1
+ 1 1 5 4 1 6 1 4 8 1   1 5 1 1 7 1 4 6 4 1   6 4 1 4 6 1 6 1 4 6
+ 1 1 4 7 1 8 1 1 1 1   5 8 4 4 4 4 4 6 7 8   4 4 1 1 1 4 4 1 1 4
+ 5 4 4 1 1 6 4 4 8 8   1 6 1 1 1 1 1 4 1 1   4 4 4 6 1 1 1 1 4 4
+ 6 6 7 4 1 5 1 4 4 8   4 6 1 1 6 8 8 7 1 1   5 4 4 8 1 1 1 1 1 8
+ 8 7 7 6 4 8 1 1 1 7   6 6 5 5 8 4 8 7 6 6   6 8 8 8 8 4 8 7 7 8
+ 1 1 4 1 1 1 5 6 8 1   1 5 4 1 6 1 1 7 1 1   1 8 5 7 8 1 7 1 1 1
+ 1 1 8 4 6 6 7 4 4 5   1 7 8 8 8 1 1 5 4 4   6 4 4 4 8 8 8 8 8 7
+ 1 1 5 1 5 7 7 8 8 8   4 8 8 1 5 4 1 4 7 4   6 4 1 4 1 1 8 6 8 7
+ 1 1 8 1 1 7 4 1 6 1   4 8 1 1 1 1 4 4 8 6   7 4 6 8 6 1 6 1 1 7
+ 4 7 4 4 1 7 1 1 6 7   6 8 1 1 1 8 4 6 4 8   4 5 1 7 1 1 1 1 8 4
+ 1 1 1 1 1 4 8 8 7 1   1 4 8 1 6 4 1 8 1 1   1 4 1 5 1 1 1 1 1 1
+ 1 1 1 1 6 1 1 1 4 4   4 7 7 1 4 1 1 7 7 4   1 1 1 4 1 4 1 5 4 7
+ 8 1 8 7 1 1 1 1 7 6   1 4 1 4 4 4 1 4 7 1   4 7 4 6 6 5 7 5 1 8
+ 5 1 6 4 4 5 8 1 1 4   1 8 4 6 6 1 5 4 4 1   4 1 1 1 1 1 1 1 1 7
+ 1 1 7 4 4 4 1 1 7 7   1 8 1 1 8 1 1 8 1 1   1 1 4 1 1 7 6 8 7 1
+ 1 4 8 8 8 4 4 7 7 8   4 1 1 7 4 4 5 7 1 4   6 1 4 1 1 5 8 1 8 1
+ 6 5 1 1 7 7 1 4 4 1   4 1 1 6 4 1 4 1 1 1   4 4 1 7 8 8 1 1 6 1
+ 1 5 6 7 8 4 4 4 6 1   4 7 7 7 7 6 5 4 1 1   6 5 7 6 8 8 8 1 1 6
+ 1 4 4 1 4 7 6 4 4 1   4 7 8 6 7 1 4 4 4 6   6 1 1 8 1 1 7 7 1 4
+ 1 8 6 4 1 5 7 6 4 6   1 7 1 7 6 4 6 4 1 1   1 1 1 4 4 7 7 1 1 1
+ 4 6 6 5 4 1 1 4 8 8   4 8 1 6 8 7 6 6 6 8   6 8 4 1 1 1 5 7 8 8
+ 5 1 6 6 4 7 6 6 6 4   1 1 1 1 1 1 7 7 6 8   7 6 5 7 7 6 6 4 1 6
+ 8 8 7 7 6 7 6 6 8 4   7 8 7 7 6 8 1 5 4 8   7 6 1 8 7 1 8 6 8 6
+ 1 6 4 1 1 1 7 7 8 5   8 6 1 1 6 6 1 4 4 1   7 4 7 6 1 1 1 4 1 1
+ 4 5 5 1 7 7 6 1 4 8   1 8 5 1 6 8 5 7 1 6   6 1 1 7 6 1 6 7 5 1
+ 1 1 4 1 1 7 5 4 8 7   4 8 1 1 6 1 1 4 6 1   7 8 4 6 1 1 4 4 4 1
+ 8 7 8 8 6 7 4 6 1 8   8 6 8 8 7 4 6 7 4 4   7 4 1 6 7 4 8 8 4 4
+ 1 1 6 1 1 7 4 5 4 7   1 7 1 1 7 1 1 6 1 1   7 1 1 7 6 4 8 1 1 6
+ 4 4 7 7 7 5 1 1 7 6   4 6
+
+
+QUARTET STATISTICS (SEQUENCES IN INPUT ORDER)
+
+
+     name       | resolved        | partly resolved | unresolved      | sum
+ ------------------------------------------------------------------------------
+ 1   L20571          261 [ 91.26%]      12 [  4.20%]      13 [  4.55%]     286
+ 2   AF103818        271 [ 94.76%]      14 [  4.90%]       1 [  0.35%]     286
+ 3   X52154          260 [ 90.91%]      13 [  4.55%]      13 [  4.55%]     286
+ 4   U09127          255 [ 89.16%]      17 [  5.94%]      14 [  4.90%]     286
+ 5   U27426          260 [ 90.91%]      15 [  5.24%]      11 [  3.85%]     286
+ 6   U27445          273 [ 95.45%]      11 [  3.85%]       2 [  0.70%]     286
+ 7   AF067158        261 [ 91.26%]      18 [  6.29%]       7 [  2.45%]     286
+ 8   U09126          263 [ 91.96%]      13 [  4.55%]      10 [  3.50%]     286
+ 9   U27399          270 [ 94.41%]       9 [  3.15%]       7 [  2.45%]     286
+ 10  U43386          264 [ 92.31%]       8 [  2.80%]      14 [  4.90%]     286
+ 11  L02317          268 [ 93.71%]      12 [  4.20%]       6 [  2.10%]     286
+ 12  AF025763        268 [ 93.71%]      13 [  4.55%]       5 [  1.75%]     286
+ 13  U08443          267 [ 93.36%]      12 [  4.20%]       7 [  2.45%]     286
+ 14  AF042106        271 [ 94.76%]       9 [  3.15%]       6 [  2.10%]     286
+ --------------------------------------------------------------------------
+     #quartets :     928 [ 92.71%]      44 [  4.40%]      29 [  2.90%]    1001
+
+The table shows the occurrences of fully resolved, partially, and
+completely unresolved quartets for each sequence and their percentage
+relative to the number of times the sequence occurs in the list of 
+quartets (i.e. 286 quartets out of 1001 in total).
+In fully resolved quartet one single topology is supported, while for
+partially resolved quartets two and for completely unresolved quartets
+none of the topologies (AB||CD, AC||BD, AD||BC) are favoured.
+Note: Because 4 sequences are involved in one quartet numbers add up
+to a four-fold of the existing quartets.
+
+Hint: The overall numbers in the last row give information about the
+phylogenetic content of the dataset. The higher the percentage of partially
+and unresolved quartets, the lower the content of phylogenetic information.
+This can be visualized in more detail by likelihood mapping analysis.
+
+
+
+TREE SEARCH
+
+Quartet puzzling is used to choose from the possible tree topologies
+and to simultaneously infer support values for internal branches.
+
+Number of puzzling steps: 10000
+Analysed quartets: 1001
+Fully resolved quartets:  928 (= 92.7%)
+Partly resolved quartets: 44 (= 4.4%)
+Unresolved quartets:      29 (= 2.9%)
+
+Quartet trees are based on approximate maximum likelihood values
+using the selected model of substitution and rate heterogeneity.
+
+
+QUARTET PUZZLING TREE
+
+Support for the internal branches of the unrooted quartet puzzling
+tree topology is shown in percent.
+
+This quartet puzzling tree is not completely resolved!
+
+
+                     :---AF103818  
+ :-----------------94:             
+ :                   :---X52154    
+ :                                 
+ :                   :---AF067158  
+ :   :-------------98:             
+ :   :               :---U09126    
+ :   :                             
+ :   :               :---U27399    
+ :   :   :--------100:             
+ :   :   :           :---U43386    
+ :   :   :                         
+ :   :-86:           :---L02317    
+ :   :   :       :-97:             
+ :-86:   :   :-86:   :---AF042106  
+ :   :   :   :   :                 
+ :   :   :100:   :-------AF025763  
+ :   :       :                     
+ :   :       :-----------U08443    
+ :   :                             
+ :   :               :---U27426    
+ :   :-------------84:             
+ :   :               :---U27445    
+ :   :                             
+ :   :-------------------U09127    
+ :                                 
+ :-----------------------L20571    
+
+
+Quartet puzzling tree (in CLUSTAL W notation):
+
+(L20571,(AF103818,X52154)94,((AF067158,U09126)98,((U27399,
+U43386)100,(((L02317,AF042106)97,AF025763)86,U08443)100)86,
+(U27426,U27445)84,U09127)86);
+
+
+BIPARTITIONS
+
+The following bipartitions occured at least once in all intermediate
+trees that have been generated in the 10000 puzzling steps.
+Bipartitions included in the quartet puzzling tree:
+(bipartition with sequences in input order : number of times seen (and ratio))
+
+ ********.. **** :  9995 (1.000)
+ ********** .... :  9958 (0.996)
+ ******..** **** :  9821 (0.982)
+ ********** .**. :  9737 (0.974)
+ *..******* **** :  9379 (0.938)
+ ********** ..*. :  8627 (0.863)
+ ********.. .... :  8603 (0.860)
+ ***....... .... :  8583 (0.858)
+ ****..**** **** :  8419 (0.842)
+
+Congruent bipartitions occurred in 50% or less, not included in 
+the consensus tree:
+(bipartition with sequences in input order : number of times seen (and ratio))
+
+ ***...**** **** :  4957 (0.496)
+ ***.....** **** :  3659 (0.366)
+
+Incongruent bipartitions not included in the consensus tree:
+(bipartition with sequences in input order : number of times seen (and ratio))
+
+ ******.... .... :  2574 (0.257)
+ ****...... .... :  2163 (0.216)
+ ****....** **** :  1790 (0.179)
+ ***.**..** **** :  1695 (0.170)
+ ***..***** **** :  1489 (0.149)
+ ********** .*.. :  1364 (0.136)
+ ***.**.... .... :  1253 (0.125)
+ ***...**.. .... :  1200 (0.120)
+ ***....... **** :   605 (0.060)
+ *...****** **** :   504 (0.050)
+ ****..**.. .... :   480 (0.048)
+ ****...... **** :   380 (0.038)
+ *..***..** **** :   282 (0.028)
+ *...**.... .... :   268 (0.027)
+ *.*.****** **** :   240 (0.024)
+ ******.... **** :   234 (0.023)
+ **.***..** **** :   211 (0.021)
+ ********** ..** :   196 (0.020)
+ **........ .... :   167 (0.017)
+ *.*....... .... :   160 (0.016)
+
+(61 other less frequent bipartitions not shown)
+
+
+MAXIMUM LIKELIHOOD BRANCH LENGTHS ON CONSENSUS TREE (NO CLOCK)
+
+Branch lengths are computed using the selected model of
+substitution and rate heterogeneity.
+
+
+      :--------2 AF103818
+ :---15
+ :    :--------3 X52154
+ :
+ :          :--7 AF067158
+ :      :--16
+ :      :   :-8 U09126
+ :      :
+ :      :      :-9 U27399
+ :      :  :--17
+ :      :  :   :--10 U43386
+ :      :-21
+ :      :  :        :-11 L02317
+ :      :  :     :-18
+ :      :  :     :  :--14 AF042106
+ :      :  :  :-19
+ :      :  :  :  :-12 AF025763
+ :      :  :-20
+ :      :     :-13 U08443
+ :-----23
+ :      :   :--5 U27426
+ :      :--22
+ :      :   :-6 U27445
+ :      :
+ :      :---4 U09127
+ :
+ :--------------------1 L20571
+ 
+
+         branch  length     S.E.   branch  length     S.E.
+L20571        1  0.91374  0.06372      15  0.11119  0.02356
+AF103818      2  0.34227  0.02894      16  0.07671  0.00793
+X52154        3  0.33293  0.02853      17  0.04872  0.00613
+U09127        4  0.10540  0.00890      18  0.00625  0.00234
+U27426        5  0.06472  0.00669      19  0.01055  0.00318
+U27445        6  0.04713  0.00588      20  0.03737  0.00547
+AF067158      7  0.05483  0.00604      21  0.04254  0.00632
+U09126        8  0.04076  0.00534      22  0.06999  0.00766
+U27399        9  0.04528  0.00557      23  0.22650  0.02667
+U43386       10  0.05498  0.00605
+L02317       11  0.03631  0.00458
+AF025763     12  0.04506  0.00513
+U08443       13  0.04462  0.00523     9 iterations until convergence
+AF042106     14  0.04882  0.00530     log L: -17406.08
+
+
+Consensus tree with maximum likelihood branch lengths
+(in CLUSTAL W notation):
+
+(L20571:0.91374,(AF103818:0.34227,X52154:0.33293)94:0.11119,((AF067158:0.05483,
+U09126:0.04076)98:0.07671,((U27399:0.04528,U43386:0.05498)100:0.04872,
+(((L02317:0.03631,AF042106:0.04882)97:0.00625,AF025763:0.04506)86:0.01055,
+U08443:0.04462)100:0.03737)86:0.04254,(U27426:0.06472,U27445:0.04713)
+84:0.06999,U09127:0.10540)86:0.22650);
+
+
+TIME STAMP
+
+Date and time: Mon Jun  8 19:01:47 2020
+Runtime (excl. input) : 6 seconds (= 0.1 minutes = 0.0 hours)
+Runtime (incl. input) : 116 seconds (= 1.9 minutes = 0.0 hours)

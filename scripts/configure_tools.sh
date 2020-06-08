@@ -32,3 +32,19 @@ echo 'PATH=$PATH:'$(pwd)/exe >> ~/.bashrc
 sudo apt-get install -y figtree
 # MEGAX
 sudo dpkg -i megax_10.1.8-1_amd64.deb
+# IQPNNI
+wget http://www.cibiv.at/software/iqpnni/iqpnni-3.3.2-bin.tar.gz
+tar xzvf iqpnni-3.3.2-bin.tar.gz
+mkdir -p iqpnni/
+mv iqpnni-332-linux iqpnni/iqpnni-332-linux
+echo 'PATH=$PATH:'$(pwd)/iqpnni/ >> ~/.bashrc
+# TREE-PUZZLE
+wget http://www.tree-puzzle.de/tree-puzzle-5.3.rc16-linux.tar.gz
+tar xzvf tree-puzzle-5.3.rc16-linux.tar.gz
+cd tree-puzzle-5.3.rc16-linux/src
+mkdir -p ../bin/
+mv puzzle-linux-gcc ../bin/
+cd ../bin/
+mv puzzle-linux-gcc puzzle
+echo 'PATH=$PATH:'$(pwd)/ >> ~/.bashrc
+cd ../..

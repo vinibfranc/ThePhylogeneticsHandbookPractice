@@ -17,3 +17,7 @@ outfile is already in the appropriate format, and it can be used directly as inp
 The Fitch–Margoliash tree is calculated with the program fitch by employing the same distance matrix used for estimating the NJ tree, but now for mtDNA dataset. The only option to be changed is option G (select Yes), which slows down a little the computation but increases the probability of finding a tree minimizing the difference between estimated pairwise distances and patristic distances. Again, the tree written to the outtree file can be displayed and edited with the TreeView or FigTree program.
 
 In the last practice of this chapter, we will use the primates data set as an example to see how different evolutionary assumptions can affect the tree estimated with a tree-based algorithm like NJ, and can occasionally lead to dramatically “wrong” tree topologies. We will perform tree inference using the MEGAX (user interface) program and the file primates.meg.
+
+### Chapter 6: Phylogenetic inference using maximum likelihood methods
+
+The hivALN_2.phy will be analyzed with IQPNNI (Vinh & von Haeseler, 2004) to infer a maximum likelihood tree and Tree-Puzzle 5.3 (Schmidt et al., 2002) to compute support values for the branches of the ML tree.

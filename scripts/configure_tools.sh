@@ -21,3 +21,14 @@ sudo apt-get install -y t-coffee
 wget http://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86linux64.tar.gz
 tar xzvf muscle3.8.31_i86linux64.tar.gz
 echo 'PATH=$PATH:'$(pwd)/ >> ~/.bashrc
+# PHYLIP
+wget http://evolution.gs.washington.edu/phylip/download/phylip-3.697.tar.gz
+tar xzvf phylip-3.697.tar.gz
+cd phylip-3.697/src
+make -f Makefile.unx install
+cd ..
+echo 'PATH=$PATH:'$(pwd)/exe >> ~/.bashrc
+# FigTree
+sudo apt-get install -y figtree
+# MEGAX
+sudo dpkg -i megax_10.1.8-1_amd64.deb

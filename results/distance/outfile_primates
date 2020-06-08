@@ -1,0 +1,95 @@
+
+  20 Populations
+
+Neighbor-Joining/UPGMA method version 3.697
+
+
+ Neighbor-joining method
+
+ Negative branch lengths allowed
+
+
+  +Chimp     
+  ! 
+  ! +Gorilla   
+  ! ! 
+  ! !     +Orangutan 
+  ! !  +-10  
+  ! !  !  +Gibbon    
+  8-9  !  
+  ! !  !              +PMarmoset 
+  ! !  !            +-2 
+  ! !  !          +-5 +Tamarin   
+  ! !  !          ! ! 
+  ! !  !        +-6 +-Squirrel  
+  ! +-11        ! ! 
+  !    !        ! ! +Titi      
+  !    !        ! +-3 
+  !    !  +-----7   +Saki      
+  !    !  !     ! 
+  !    !  !     ! +-Howler    
+  !    !  !     +-4 
+  !    !  !       ! +Spider    
+  !    !  !       +-1 
+  !    +-12         +-Woolly    
+  !       !  
+  !       !     +Colobus   
+  !       !  +-13  
+  !       !  !  +DLangur   
+  !       !  !  
+  !       !  !        +Rhes_cDNA 
+  !       +-14     +-16  
+  !          !     !  +Baboon    
+  !          !  +-17  
+  !          !  !  !  +AGM_cDNA  
+  !          +-18  +-15  
+  !             !     +Tant_cDNA 
+  !             !  
+  !             +Patas     
+  ! 
+  +Human     
+
+
+remember: this is an unrooted tree!
+
+Between        And            Length
+-------        ---            ------
+   8          Chimp           0.00269
+   8             9            0.00098
+   9          Gorilla         0.00573
+   9            11            0.00670
+  11            10            0.00150
+  10          Orangutan       0.01252
+  10          Gibbon          0.02239
+  11            12            0.01053
+  12             7            0.10353
+   7             6            0.00313
+   6             5            0.00124
+   5             2            0.01137
+   2          PMarmoset       0.01720
+   2          Tamarin         0.01844
+   5          Squirrel        0.04711
+   6             3            0.00990
+   3          Titi            0.02313
+   3          Saki            0.01724
+   7             4            0.01081
+   4          Howler          0.03850
+   4             1            0.00749
+   1          Spider          0.01211
+   1          Woolly          0.01852
+  12            14            0.02721
+  14            13            0.00253
+  13          Colobus         0.00381
+  13          DLangur         0.00488
+  14            18            0.00927
+  18            17            0.00178
+  17            16            0.00408
+  16          Rhes_cDNA       0.00559
+  16          Baboon          0.00312
+  17            15            0.00436
+  15          AGM_cDNA        0.00129
+  15          Tant_cDNA       0.00138
+  18          Patas           0.01108
+   8          Human           0.00601
+
+

@@ -1,0 +1,105 @@
+
+  20 Populations
+
+Fitch-Margoliash method version 3.697
+
+                  __ __             2
+                  \  \   (Obs - Exp)
+Sum of squares =  /_ /_  ------------
+                                2
+                   i  j      Obs
+
+Negative branch lengths not allowed
+
+global optimization
+
+
+
+  +Chimp     
+  ! 
+  !                  +-Woolly    
+  !               +-18  
+  !            +-17  +Spider    
+  !            !  !  
+  !            !  +-Howler    
+  !      +----16  
+  !      !     !     +Saki      
+  !      !     !  +-15  
+  !      !     !  !  +Titi      
+  !      !     +-13  
+  !      !        !  +-Squirrel  
+  !      !        +-14  
+  !   +-11           !  +Tamarin   
+  !   !  !           +-12  
+  !   !  !              +PMarmoset 
+  !   !  !  
+  !   !  !    +DLangur   
+  !   !  ! +-10  
+  !   !  ! !  +Colobus   
+  !   !  +-9 
+  !   !    ! +Patas     
+  ! +-4    ! ! 
+  ! ! !    +-8   +Tant_cDNA 
+  ! ! !      ! +-7 
+  ! ! !      ! ! +AGM_cDNA  
+  ! ! !      +-6 
+  ! ! !        ! +Baboon    
+  1-2 !        +-5 
+  ! ! !          +Rhes_cDNA 
+  ! ! ! 
+  ! ! ! +Gibbon    
+  ! ! +-3 
+  ! !   +Orangutan 
+  ! ! 
+  ! +Gorilla   
+  ! 
+  +Human     
+
+
+remember: this is an unrooted tree!
+
+Sum of squares =     0.15158
+
+Average percent standard deviation =     2.00251
+
+Between        And            Length
+-------        ---            ------
+   1          Chimp             0.00224
+   1             2              0.00101
+   2             4              0.00668
+   4            11              0.01094
+  11            16              0.10289
+  16            17              0.01126
+  17            18              0.00805
+  18          Woolly            0.01881
+  18          Spider            0.01182
+  17          Howler            0.03781
+  16            13              0.00345
+  13            15              0.00959
+  15          Saki              0.01926
+  15          Titi              0.02111
+  13            14              0.00118
+  14          Squirrel          0.04562
+  14            12              0.01284
+  12          Tamarin           0.01797
+  12          PMarmoset         0.01768
+  11             9              0.02673
+   9            10              0.00245
+  10          DLangur           0.00487
+  10          Colobus           0.00382
+   9             8              0.00934
+   8          Patas             0.01088
+   8             6              0.00187
+   6             7              0.00468
+   7          Tant_cDNA         0.00139
+   7          AGM_cDNA          0.00127
+   6             5              0.00374
+   5          Baboon            0.00312
+   5          Rhes_cDNA         0.00559
+   4             3              0.00157
+   3          Gibbon            0.02281
+   3          Orangutan         0.01210
+   2          Gorilla           0.00559
+   1          Human             0.00646
+
+

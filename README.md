@@ -21,3 +21,7 @@ In the last practice of this chapter, we will use the primates data set as an ex
 ### Chapter 6: Phylogenetic inference using maximum likelihood methods
 
 The hivALN_2.phy will be analyzed with IQPNNI (Vinh & von Haeseler, 2004) to infer a maximum likelihood tree and Tree-Puzzle 5.3 (Schmidt et al., 2002) to compute support values for the branches of the ML tree.
+
+### Chapter 7: Bayesian phylogenetic analysis using MR BAYES
+
+This section is a tutorial based on the primates.nex data file. It will guide you through a basic Bayesian MCMC analysis of phylogeny, explaining the most important features of the program.

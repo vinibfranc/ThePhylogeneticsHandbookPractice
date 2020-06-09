@@ -48,3 +48,14 @@ cd ../bin/
 mv puzzle-linux-gcc puzzle
 echo 'PATH=$PATH:'$(pwd)/ >> ~/.bashrc
 cd ../..
+# MrBayes
+sudo apt -y install build-essential make cmake scons curl autoconf automake pkg-config autoconf-archive gettext libtool flex bison \
+    libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev xorg
+wget https://github.com/NBISweden/MrBayes/releases/download/v3.2.7/mrbayes-3.2.7.tar.gz
+tar xzvf mrbayes-3.2.7.tar.gz
+cd mrbayes-3.2.7/
+./configure #--enable-mpi
+make
+sudo make install
+echo 'PATH=$PATH:'$(pwd)/src/ >> ~/.bashrc
+cd ..

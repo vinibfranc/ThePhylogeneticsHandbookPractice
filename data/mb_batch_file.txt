@@ -1,0 +1,6 @@
+set autoclose=yes nowarn=yes
+execute ../data/primates_2.nex
+lset nst=6  rates=invgamma
+mcmc ngen=10000 samplefreq=10 filename=../results/mrbayes/primates
+sump burnin=250 outputname=../results/mrbayes/primates
+sumt burnin=250 outputname=../results/mrbayes/primates

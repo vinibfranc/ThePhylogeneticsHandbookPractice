@@ -59,3 +59,5 @@ make
 sudo make install
 echo 'PATH=$PATH:'$(pwd)/src/ >> ~/.bashrc
 cd ..
+# PAML
+sudo apt-get install -y paml #version 4.9f

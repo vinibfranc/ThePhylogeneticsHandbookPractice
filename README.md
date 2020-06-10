@@ -25,3 +25,9 @@ The hivALN_2.phy will be analyzed with IQPNNI (Vinh & von Haeseler, 2004) to inf
 ### Chapter 7: Bayesian phylogenetic analysis using MR BAYES
 
 This section is a tutorial based on the primates.nex data file. It will guide you through a basic Bayesian MCMC analysis of phylogeny, explaining the most important features of the program.
+
+### Chapter 11: Molecular clock analysis 
+
+In this exercise, we will examine clock-like behavior in two nucleotide sequence alignments. The first data set (“primates.phy”) contains the TRIM5α gene sequences for 21 different primate species. TRIM5α is present in most primates and encodes a retroviral restriction factor that protects Old World monkey cells against HIV infection (Stremlau et al., 2004). Positions with gaps in the original alignment, analyzed by Sawyer et al. (2005), were removed for our analysis here. 
+
+The dataset, in sequential PHYLIP format (“primates_8.phy”), and the associated rooted and unrooted maximum likelihood trees (“primates_unrooted_2.tre” and “primates_rooted_2.tre”) are present in data folder.
